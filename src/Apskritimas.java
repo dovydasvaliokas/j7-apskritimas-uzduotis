@@ -32,6 +32,16 @@ public class Apskritimas {
         return 2 * Math.PI * spindulys;
     }
 
+    /**
+     * Grąžina visus apskritimo skaičiavimus (skersmuo, plotas, ilgis) bendrai suformatuotai į vieną tekstą
+     * @return String suformatuotą tekstą
+     */
+    public String skaiciavimaiToString() {
+        return "Skersmuo (d) = " + skersmuo() + "\n" +
+                "Plotas (S) = " + plotas() + "\n" +
+                "Ilgis (C) = " + ilgis();
+    }
+
     public double getSpindulys() {
         return spindulys;
     }

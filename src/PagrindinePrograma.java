@@ -14,6 +14,14 @@
  */
 public class PagrindinePrograma {
     public static void main(String[] args) {
+        Apskritimas a1 = new Apskritimas(8);
+        System.out.println("a1 = " + a1.skaiciavimaiToString());
+
+        Apskritimas a2 = new Apskritimas(27.368);
+        System.out.println("a2 = " + a2.skaiciavimaiToString());
+
+        Apskritimas a3 = new Apskritimas(1048.671);
+        System.out.println("a3 = " + a3.skaiciavimaiToString());
 
     }
 }

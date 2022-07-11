@@ -24,6 +24,14 @@ public class Apskritimas {
         return Math.PI * Math.pow(spindulys, 2);
     }
 
+    /**
+     * Apskaičiuoja apskritimo ilgį.
+     * @return
+     */
+    public double ilgis() {
+        return 2 * Math.PI * spindulys;
+    }
+
     public double getSpindulys() {
         return spindulys;
     }

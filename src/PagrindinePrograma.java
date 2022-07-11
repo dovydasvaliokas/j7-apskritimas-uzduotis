@@ -23,5 +23,8 @@ public class PagrindinePrograma {
         Apskritimas a3 = new Apskritimas(1048.671);
         System.out.println("a3: \n" + a3.skaiciavimaiToString());
 
+        Apskritimas a4 = new Apskritimas(-25);
+        System.out.println("a4: \n" + a4.skaiciavimaiToString());
+
     }
 }

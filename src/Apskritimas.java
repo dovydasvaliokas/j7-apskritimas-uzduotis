@@ -2,7 +2,13 @@ public class Apskritimas {
     private double spindulys;
 
     public Apskritimas(double spindulys) {
-        this.spindulys = spindulys;
+        if (spindulys >= 0) {
+            this.spindulys = spindulys;
+        }
+        else {
+            System.out.println("Spindulys negali būti neigiamas.");
+            spindulys = 0;
+        }
     }
 
     public Apskritimas() {
@@ -47,7 +53,12 @@ public class Apskritimas {
     }
 
     public void setSpindulys(double spindulys) {
-        this.spindulys = spindulys;
+        if (spindulys >= 0) {
+            this.spindulys = spindulys;
+        }
+        else {
+            System.out.println("Spindulys negali būti neigiamas. Spindulio reikšmė nebuvo pakeista.");
+        }
     }
 
     @Override

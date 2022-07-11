@@ -16,6 +16,14 @@ public class Apskritimas {
         return spindulys * 2;
     }
 
+    /**
+     * Apskaičiuoja apskritimo plotą
+     * @return plotas
+     */
+    public double plotas() {
+        return Math.PI * Math.pow(spindulys, 2);
+    }
+
     public double getSpindulys() {
         return spindulys;
     }

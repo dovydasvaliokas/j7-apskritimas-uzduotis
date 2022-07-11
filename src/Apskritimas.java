@@ -8,6 +8,14 @@ public class Apskritimas {
     public Apskritimas() {
     }
 
+    /**
+     * Apskaičiuoja apskritimo skersmenį
+     * @return dvigubą spindulį
+     */
+    public double skersmuo() {
+        return spindulys * 2;
+    }
+
     public double getSpindulys() {
         return spindulys;
     }
